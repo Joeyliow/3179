@@ -57,7 +57,7 @@
                     "field": "Agricultural (%)",
                     "type": "quantitative",
                     "scale": {
-                        "type": "linear",
+                        "type": "threshold",
                         "domain": [0, 5, 10, 15, 20],  
                         "range": [
                             "#fee5d9", 
