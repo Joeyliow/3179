@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Global Agricultural Gross Domestic Product Impact by Country (2023)",
+    "title": "Global Agricultural Economic Contribution by Country (2023)",
     "width": 800,
     "height": 400,
     "data": {
@@ -47,8 +47,7 @@
                         },
                         "key": "Country/Economy",
                         "fields": [
-                            "Agricultural (%)",
-                            "Agricultural (USD$)"
+                            "Agricultural (%)"
                         ]
                     }
                 }
@@ -82,12 +81,6 @@
                         "field": "Agricultural (%)",
                         "type": "quantitative",
                         "title": "Agricultural Contribution (%)",
-                        "format": ".2f"
-                    },
-                    {
-                        "field": "Agricultural (USD$)",
-                        "type": "quantitative",
-                        "title": "Agricultural Gross Domestic Product (USD$)",
                         "format": ".2f"
                     }
                 ]
