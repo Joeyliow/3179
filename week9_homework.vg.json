@@ -80,7 +80,7 @@
                     {
                         "field": "Agricultural (%)",
                         "type": "quantitative",
-                        "title": "Agricultural Contribution (%)",
+                        "title": "Agricultural Contribution To Overall Country Gross Domestic Production (%)",
                         "format": ".2f"
                     }
                 ]
