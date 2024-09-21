@@ -58,12 +58,12 @@
                     "type": "quantitative",
                     "scale": {
                         "type": "threshold",
-                        "domain": [5, 10, 15, 20],  
-                        "range": [
-                            "#fee5d9", 
+                        "domain": [5, 10, 15],  
+                        "range": [ 
                             "#fcae91", 
                             "#fb6a4a", 
-                            "#de2d26"
+                            "#de2d26",
+                            "#a50f15"
                         ]
                     },
                     "legend": {
