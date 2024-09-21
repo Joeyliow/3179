@@ -58,13 +58,13 @@
                     "type": "quantitative",
                     "scale": {
                         "type": "linear",
-                        "domain": [
-                            0,
-                            20
-                        ],
+                        "domain": [0, 5, 10, 15, 20],  // Define the 5% increments
                         "range": [
-                            "#ffeda0",
-                            "#f03b20"
+                            "#fee5d9", 
+                            "#fcae91", 
+                            "#fb6a4a", 
+                            "#de2d26",  
+                            "#a50f15"   
                         ]
                     },
                     "legend": {
