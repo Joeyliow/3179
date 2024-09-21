@@ -58,7 +58,7 @@
                     "type": "quantitative",
                     "scale": {
                         "type": "linear",
-                        "domain": [0, 5, 10, 15, 20],  // Define the 5% increments
+                        "domain": [0, 5, 10, 15, 20],  
                         "range": [
                             "#fee5d9", 
                             "#fcae91", 
