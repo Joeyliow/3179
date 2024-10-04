@@ -54,22 +54,11 @@
     },
     "layer":[
         {
-        "selection": {
-            "continent_highlight": {
-                "type": "multi",
-                "fields": ["Continent"],
-                "bind": "legend"
-            }
-        },
         "mark": "circle",
         "encoding":{
             "color":{
                 "field": "Continent",
                 "type": "nominal"
-            },
-            "opacity": {
-                "condition": {"selection": "continent_highlight", "value": 0.6},
-                "value": 0.1
             },
             "size": {
                 "field": "Agricultural_land(sq_km)",
